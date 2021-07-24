@@ -1,0 +1,108 @@
+/* CSS Image */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* image styling */
+img {
+    filter: saturate(30%);
+    border-radius: 5%;
+}
+
+/* footer styling */
+footer {
+    display:block;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Table styling */
+table, th, td {
+    border: 1px solid darkgray;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Table heading color only */
+th  {
+    background-color: darkcyan;
+}
+
+/* Container holding image with writing over it */
+.container  {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+
+/* Center image text */
+.centered   {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Navigation bar styling */
+.navbar {
+    overflow: hidden;
+    background-color: darkgrey;
+}
+
+/* Navbar links styling */
+.navbar a{
+    color: darkcyan;
+}
+
+/* Change background on hover */
+.navbar a:hover {
+    background: darkgrey;
+    color: darkslategray;
+}
+
+/* 2-Column layout styling */
+.column {
+    float: left;
+    width: 50%;
+    color: darkturquoise;
+    height: 200px;
+    width: 50%;
+}
+
+.row:after  {
+    display: table;
+}
+
+/* Paragraph effects */
+.paragraph:hover    {
+    color: goldenrod;
+    background-color: black;
+}
+
+/* Overlay effect */
+.overlay    {
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s;
+    background-color: darkcyan;
+}
+
+.container:hover .overlay   {
+    opacity: 1;
+}
+
+/* Video overlay */
+video  {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
