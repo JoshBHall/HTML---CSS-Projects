@@ -5,6 +5,7 @@
  * One Page Website
  * Space Station Site
  * Movie Theater Site
+ * Student Portfolio
  
  ## One Page Website
  This site was created with the purpose of learning nesting elements, commenting in HTML, linking images and using anchor tags to shortcut to different sections of the page.
@@ -14,3 +15,6 @@
  
  ## Movie Theater Site
  This page is an example home page for a movie theater that's styled using Bootstrap 4.  While creating this site I learned how to use many Bootstrap components such as a navbar, jumbotron, form, cards, and dropdowns.
+
+## Student Portfolio
+Using a template site created by The Tech Academy, I parsed through, removing lines of code to see their effects and gain further understanding.  Then I rewrote all of the code myself for experience and put my personal spin on it.  I now have a functional personal portfolio.
