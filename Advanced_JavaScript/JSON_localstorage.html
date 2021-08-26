@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		<title>Basic HTML</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="">
+	</head>
+	
+	<body>
+	
+		<h1>The Basic HTML Template</h1>
+		<p id="myCar"></p>
+
+		<script>
+			localStorage.setItem("Color", "Red");
+            document.getElementById("myCar").innerHTML = localStorage.getItem("Color");
+        </script>
+		
+	</body>
+</html>

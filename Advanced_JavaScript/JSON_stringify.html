@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		<title>Basic HTML</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="">
+	</head>
+	
+	<body>
+	
+		<h1>The Basic HTML Template</h1>
+		<p id="myCar"></p>
+
+		<script>
+			var car = {color: "red", year: "1968", make: "Ford", model: "Mustang"};
+			var JSONstring = JSON.stringify(car);
+			document.getElementById("myCar").innerHTML = JSONstring;
+		</script>
+		
+	</body>
+</html>

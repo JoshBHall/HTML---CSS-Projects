@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="Basic_JavaScript_1.js"></script>
+       
         <link rel="stylesheet" type="text/css" href="basic_CSS_1.css">
+        <style>
+            body {
+                opacity: 1;
+                transition: 1s opacity;
+            }
+            
+            body.fade-out {
+                opacity: 0;
+                transition: none;
+            }
+        </style>
     </head>
+    
     <body>
 
+        <script>
+            document.body.classList.add('fade-out');
+        </script>
         
 
         
@@ -14,10 +29,7 @@
         <p><font color="2B4789" size="3"><i>Blue is also nice.</i></font></p>
         <img src="../doge.jpg" alt="The goodest boi"></img>
         
-
-        <script>
-            document.body.classList.add('fade-out');
-        </script>
+        <script src="Basic_JavaScript_1.js"></script>
         
     </body>
     

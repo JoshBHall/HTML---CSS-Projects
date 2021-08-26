@@ -1,3 +1,5 @@
 window.addEventListener('DOMContentLoaded', () => {
-	document.body.classList.remove('fade-out');
+	setTimeout(function() {
+		document.body.classList.remove('fade-out');
+	}, 2000);
 });

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		<title>Basic HTML</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="">
+        <style>
+            div {
+                position: relative;
+                animation: mymove 5s infinite;
+            }
+
+            @keyframes mymove {
+                    from {top:0px;}
+                    to {top:200px;}
+            }
+        </style>
+	</head>
+	
+	<body>
+	
+		<h1>The Basic HTML Template</h1>
+		<p>Introduction to basic HTML syntax.</p>
+		
+		<form name="phone#" action="/action_page.php" onsubmit="return validateForm()">
+			<label for="phone#">Phone Number:</label><br>
+			<input type="text" id="phone#" name="phone#"><br>
+            <input type="submit" value="Submit">
+		</form>
+
+        <div class="form-popup" id="popForm">
+            <form action="/action_page.php" class="form-container">
+
+                <h1>Login</h1>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                
+                <button type="submit" class="btn">Login</button>
+                <button type="submit" class="btm cancel" onclick="closeForm()">Close</button>
+
+            </form>
+        </div>
+
+        <script src="form_challenge.js"></script>
+	</body>
+</html>
